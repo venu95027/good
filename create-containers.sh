@@ -7,7 +7,7 @@ do
 	echo "=============================="
     echo "Creating  gamut_con$i container.."
     sleep 1
-    docker run --name jenkins$i -d -it  gamut_img /bin/bash
+    docker run --name gamut_con$i -d -it  gamut_img /bin/bash
     echo " gamut_con$i container has been created!"
 	echo "=============================="
 done
