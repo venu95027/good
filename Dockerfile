@@ -1,5 +1,5 @@
-FROM tomcat
 FROM ubuntu:16.04
+FROM tomcat
 RUN apt-get update
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get update
