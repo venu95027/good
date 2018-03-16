@@ -1,7 +1,7 @@
 package com.gamutkart;
 
 /**
- * Hello welcome to Gamut!
+ * Hello welcome to GamutGurus!
  *
  */
 public class App 
