@@ -8,7 +8,7 @@ stages {
             }
         }
 
-
+    {
     stages {
         stage('Build') {
             steps {
