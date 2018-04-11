@@ -23,7 +23,7 @@ ENTRYPOINT /usr/local/tomcat/bin/startup.sh && bash
 #ENTRYPOINT service ssh start && bash  
 #ENTRYPOINT /usr/local/tomcat/bin/startup.sh && bash  
 
-Venu Copy
+##Venu Copy###
 #COPY  ${WORKSPACE}/target/gamutkart.war /usr/local/tomcat/webapps
 #EXPOSE 8080
 #ENTRYPOINT service ssh start && bash  
