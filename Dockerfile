@@ -15,3 +15,16 @@ COPY  ${WORKSPACE}/target/gamutkart.war /usr/local/tomcat/webapps
 EXPOSE 8080
 #ENTRYPOINT service ssh start && bash  
 ENTRYPOINT /usr/local/tomcat/bin/startup.sh && bash  
+
+####Nagoor Copy##############
+#ENTRYPOINT cd usr/local/tomcat/webapps && wget http://192.168.42.120:8081/nexus/service/local/repositories/releases/content/com/gamutgurus/gamutkart/103/gamutkart-104.war
+#COPY  ${WORKSPACE}/target/gamutkart.war /usr/local/tomcat/webapps
+#EXPOSE 8080
+#ENTRYPOINT service ssh start && bash  
+#ENTRYPOINT /usr/local/tomcat/bin/startup.sh && bash  
+
+Venu Copy
+#COPY  ${WORKSPACE}/target/gamutkart.war /usr/local/tomcat/webapps
+#EXPOSE 8080
+#ENTRYPOINT service ssh start && bash  
+#ENTRYPOINT /usr/local/tomcat/bin/startup.sh && bash
