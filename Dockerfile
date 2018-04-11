@@ -11,7 +11,7 @@ RUN apt-get install -y vim
 RUN apt-get update
 RUN apt-get install -y net-tools
 RUN apt-get install sudo
-RUN usr/local/tomcat/webapps wget http://localhost:8081/nexus/content/repositories/releases/gamutkart.war
+RUN usr/local/tomcat/webapps wget http://192.168.42.120:8081/nexus/content/repositories/releases/gamutkart.war
 #COPY  ${WORKSPACE}/target/gamutkart.war /usr/local/tomcat/webapps
 EXPOSE 8080
 #ENTRYPOINT service ssh start && bash  
